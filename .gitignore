@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.eggs/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch checkpoints (binary, regenerate with --pinn-save-checkpoints)
+results/pinn_checkpoints/
+*.pt
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
